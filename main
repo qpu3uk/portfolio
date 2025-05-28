@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Daniil – Unreal Engine Game Developer</title>
+</head>
+<body>
+  <h1>Daniil – Unreal Engine Game Developer</h1>
+
+  <p>8 years of experience in game development using Unreal Engine. Strong background in gameplay systems, multiplayer, GAS, and mobile optimization.</p>
+
+  <h2>Projects</h2>
+
+  <h3>Epistemeland – Mobile RPG</h3>
+  <ul>
+    <li>Solo-developed with Unreal Engine (C++ / Blueprints)</li>
+    <li>Used Gameplay Ability System (GAS)</li>
+    <li>Designed world, AI, combat, animation, and quests</li>
+    <li>
+      <strong>Links:</strong><br>
+      <a href="https://play.google.com/store/apps/details?id=com.EducationForFun.Epistemeland" target="_blank">Google Play</a> |
+      <a href="https://apps.apple.com/de/app/epistemeland/id6472447517" target="_blank">App Store</a>
+    </li>
+  </ul>
+
+  <h3>Та ну шо це? – iOS App for Kyiv Urban Issues</h3>
+  <ul>
+    <li>Flutter app with AWS backend (DynamoDB, S3, Lambda)</li>
+    <li>Helps Kyiv residents report city issues</li>
+    <li>
+      <strong>Link:</strong><br>
+      <a href="https://apps.apple.com/ua/app/та-ну-шо-це/id6742080272" target="_blank">App Store</a>
+    </li>
+  </ul>
+
+  <h3>Commercial Projects (under NDA)</h3>
+  <ul>
+    <li>Multiplayer FPS and VR projects (Unreal Engine)</li>
+    <li>Worked on gameplay, UI, AI, and animation systems</li>
+    <li>Team leadership and system architecture design</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Email: your.email@example.com</p>
+</body>
+</html>
