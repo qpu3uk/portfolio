@@ -14,7 +14,9 @@
     .skills-list li, .project-item ul li { background: #f4f4f4; margin: 0.5rem 0; padding: 0.5rem; }
     .experience-item, .project-item { margin-bottom: 2rem; }
     .gallery { display: flex; gap: 1rem; flex-wrap: wrap; }
-    .gallery img { width: calc(33% - 0.66rem); border-radius: 4px; }
+    .gallery img { width: calc(100% / 3 - 0.66rem); border-radius: 4px; }
+    .project-video { text-align: center; margin: 1rem 0; }
+    .project-video iframe { width: 100%; max-width: 560px; height: 315px; border: none; }
     footer { text-align: center; padding: 1rem; background: #f4f4f4; }
   </style>
 </head>
@@ -60,7 +62,10 @@
     </div>
 
     <div class="experience-item">
-      <h3>Unreal Engine Developer (Freelance, Upwork) <span>(May 2019 – May 2020)</span></h3>
+      <h3>
+        <img src="UpworkLogo.png" alt="Upwork" style="height:20px; vertical-align:middle; margin-right:8px;">
+        Unreal Engine Developer (Freelance, Upwork) <span>(May 2019 – May 2020)</span>
+      </h3>
       <ul>
         <li>Built gameplay systems for various client projects.</li>
         <li>Collaborated with international teams on short- to mid-term contracts.</li>
@@ -74,6 +79,15 @@
         <li>Designed gameplay mechanics in C++ and Blueprints.</li>
         <li>Implemented UI using Common UI framework.</li>
       </ul>
+      <p>Worked on Goat Simulator Remastered. Watch the trailer below:</p>
+      <div class="project-video">
+        <iframe src="https://www.youtube.com/embed/v313ztrj-UA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="gallery">
+        <img src="GaotSimulatorCredits.jpg" alt="Goat Simulator Credits">
+      </div>
+      <p>Also contributed to first-person shooter projects (details withheld due to NDA).</p>
+      <p>Details of my roles at Fractured Byte and Moonray are confidential under NDA; see my resume for more information.</p>
     </div>
 
     <div class="experience-item">
@@ -81,6 +95,11 @@
       <ul>
         <li>Developed multiplayer systems with Unreal’s Gameplay Ability System.</li>
       </ul>
+      <p>Watch the Moonray project trailer below:</p>
+      <div class="project-video">
+        <iframe src="https://www.youtube.com/embed/uV7xXTaQ7Rc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p>Details of my roles at Fractured Byte and Moonray are confidential under NDA; see my resume for more information.</p>
     </div>
   </section>
 
@@ -91,12 +110,19 @@
       <h3>Epistemeland</h3>
       <p>Mobile RPG in Unreal Engine (C++/Blueprints) with quests, AI, and combat, optimized for mobile.</p>
       <p><a href="https://play.google.com/store/apps/details?id=com.EducationForFun.Epistemeland">Google Play</a> | <a href="https://apps.apple.com/de/app/epistemeland/id6472447517">App Store</a></p>
+      <p>Watch the trailer:</p>
+      <div class="project-video">
+        <iframe src="https://www.youtube.com/embed/S57Bt2QWkFU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
 
     <div class="project-item">
       <h3>"Та ну шо це?"</h3>
       <p>iOS app for reporting urban issues in Kyiv, built with Flutter and AWS (DynamoDB, S3, Lambda).</p>
       <p><a href="https://apps.apple.com/ua/app/%D1%82%D0%B0-%D0%BD%D1%83-%D1%88%D0%BE-%D1%86%D0%B5/id6742080272">App Store</a></p>
+      <div class="gallery">
+        <img src="WhatIsIt.png" alt="Urban app screenshot">
+      </div>
     </div>
   </section>
 
