@@ -14,7 +14,8 @@
     .skills-list li, .project-item ul li { background: #f4f4f4; margin: 0.5rem 0; padding: 0.5rem; }
     .experience-item, .project-item { margin-bottom: 2rem; }
     .gallery { display: flex; gap: 1rem; flex-wrap: wrap; }
-    .gallery img { width: calc(100% / 3 - 0.66rem); border-radius: 4px; }
+    .gallery img { border-radius: 4px; }
+    .large-gallery img { width: 100%; max-width: 800px; margin-bottom: 1rem; }
     .project-video { text-align: center; margin: 1rem 0; }
     .project-video iframe { width: 100%; max-width: 560px; height: 315px; border: none; }
     footer { text-align: center; padding: 1rem; background: #f4f4f4; }
@@ -54,16 +55,25 @@
       <h3>VR Developer, VRobot <span>(June 2017 – May 2020)</span></h3>
       <p>Developed core gameplay systems in Unreal Engine and created 3D assets in Blender and Photoshop.</p>
       <p>Assembled and programmed a robot within VR, enabling cooperative interactions with other users.</p>
-      <div class="gallery">
-        <img src="VRobotScreenShot1.png" alt="VRobot screenshot 1">
-        <img src="VRobotScreenShot2.png" alt="VRobot screenshot 2">
-        <img src="VRobotScreenShot3.png" alt="VRobot screenshot 3">
+      <div class="gallery large-gallery">
+        <figure>
+          <img src="VRobotScreenShot1.png" alt="VR assembly scene">
+          <figcaption>Assembling robot components in VR</figcaption>
+        </figure>
+        <figure>
+          <img src="VRobotScreenShot2.png" alt="VR programming interface">
+          <figcaption>Programming robot behaviors collaboratively</figcaption>
+        </figure>
+        <figure>
+          <img src="VRobotScreenShot3.png" alt="Cooperative VR session">
+          <figcaption>Cooperative multi-user VR session</figcaption>
+        </figure>
       </div>
     </div>
 
     <div class="experience-item">
       <h3>
-        <img src="UpworkLogo.png" alt="Upwork" style="height:20px; vertical-align:middle; margin-right:8px;">
+        <img src="UpworkLogo.png" alt="Upwork" style="height:80px; vertical-align:middle; margin-right:8px;">
         Unreal Engine Developer (Freelance, Upwork) <span>(May 2019 – May 2020)</span>
       </h3>
       <ul>
@@ -84,22 +94,22 @@
         <iframe src="https://www.youtube.com/embed/v313ztrj-UA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="gallery">
-        <img src="GaotSimulatorCredits.jpg" alt="Goat Simulator Credits">
+        <img src="GaotSimulatorCredits.jpg" alt="Goat Simulator credits" style="width:100%; max-width:800px;">
       </div>
       <p>Also contributed to first-person shooter projects (details withheld due to NDA).</p>
-      <p>Details of my roles at Fractured Byte and Moonray are confidential under NDA; see my resume for more information.</p>
     </div>
 
     <div class="experience-item">
       <h3>Unreal Engine Developer, Moonray <span>(February 2022 – January 2023)</span></h3>
       <ul>
         <li>Developed multiplayer systems with Unreal’s Gameplay Ability System.</li>
+        <li>Designed gameplay mechanics in C++ and Blueprints.</li>
+        <li>Implemented UI using Common UI framework.</li>
       </ul>
       <p>Watch the Moonray project trailer below:</p>
       <div class="project-video">
         <iframe src="https://www.youtube.com/embed/uV7xXTaQ7Rc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-      <p>Details of my roles at Fractured Byte and Moonray are confidential under NDA; see my resume for more information.</p>
     </div>
   </section>
 
@@ -109,6 +119,7 @@
     <div class="project-item">
       <h3>Epistemeland</h3>
       <p>Mobile RPG in Unreal Engine (C++/Blueprints) with quests, AI, and combat, optimized for mobile.</p>
+      <p>I developed this project entirely on my own, implementing all features including the Gameplay Ability System (GAS).</p>
       <p><a href="https://play.google.com/store/apps/details?id=com.EducationForFun.Epistemeland">Google Play</a> | <a href="https://apps.apple.com/de/app/epistemeland/id6472447517">App Store</a></p>
       <p>Watch the trailer:</p>
       <div class="project-video">
@@ -121,7 +132,7 @@
       <p>iOS app for reporting urban issues in Kyiv, built with Flutter and AWS (DynamoDB, S3, Lambda).</p>
       <p><a href="https://apps.apple.com/ua/app/%D1%82%D0%B0-%D0%BD%D1%83-%D1%88%D0%BE-%D1%86%D0%B5/id6742080272">App Store</a></p>
       <div class="gallery">
-        <img src="WhatIsIt.png" alt="Urban app screenshot">
+        <img src="WhatIsIt.png" alt="Urban app screenshot" style="width:100%; max-width:800px;">
       </div>
     </div>
   </section>
