@@ -43,7 +43,7 @@
       <li>Dart & Flutter (1 year)</li>
       <li>Unreal Engine: Gameplay Architecture, Multiplayer, GAS, CommonUI</li>
       <li>Git, Perforce (P4V), Subversion</li>
-      <li>AWS (DynamoDB, S3, Lambda), Docker</li>
+      <li>AWS (GameLift, Cognito, API Gateway, DynamoDB, S3, Lambda), Docker</li>
       <li>Blender (Modeling, Texturing), Adobe Photoshop</li>
     </ul>
   </section>
@@ -116,16 +116,30 @@
   <section id="projects">
     <h2>Personal Projects</h2>
 
-    <div class="project-item">
-      <h3>Epistemeland</h3>
-      <p>Mobile RPG in Unreal Engine (C++/Blueprints) with quests, AI, and combat, optimized for mobile.</p>
-      <p>I developed this project entirely on my own, implementing all features including the Gameplay Ability System (GAS).</p>
-      <p><a href="https://play.google.com/store/apps/details?id=com.EducationForFun.Epistemeland">Google Play</a> | <a href="https://apps.apple.com/de/app/epistemeland/id6472447517">App Store</a></p>
-      <p>Watch the trailer:</p>
-      <div class="project-video">
-        <iframe src="https://www.youtube.com/embed/S57Bt2QWkFU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+  <div class="project-item">
+    <h3>Epistemeland</h3>
+    <p>Mobile RPG in Unreal Engine (C++/Blueprints) with quests, AI, and combat, optimized for mobile.</p>
+    <p>I developed this project entirely on my own, implementing all features including the Gameplay Ability System (GAS).</p>
+  
+    <h4 style="margin-top: 1rem;">Backend & Online Systems</h4>
+    <ul style="margin: 0.5rem 0 0; padding-left: 1.25rem;">
+      <li><strong>Amazon GameLift</strong>: Dedicated Server builds and session-based matchmaking/hosting for online PvP.</li>
+      <li><strong>OAuth Sign-In</strong>: Sign in with <strong>Google</strong> and <strong>Apple</strong> (tokens handled via AWS Cognito for a unified auth flow).</li>
+    </ul>
+  
+    <p style="margin-top: 1rem;">
+      <a href="https://play.google.com/store/apps/details?id=com.EducationForFun.Epistemeland">Google Play</a> |
+      <a href="https://apps.apple.com/de/app/epistemeland/id6472447517">App Store</a>
+    </p>
+  
+    <p>Watch the trailer:</p>
+    <div class="project-video">
+      <iframe src="https://www.youtube.com/embed/S57Bt2QWkFU"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
     </div>
+  </div>
+
 
     <div class="project-item">
       <h3>"Та ну шо це?"</h3>
